@@ -1,0 +1,45 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    gap: 36px 0;
+}
+
+.btn {
+    border-radius: 20px;
+    background: #4191FF;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 32px;
+    padding: 28px 164px;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.counter__addButton {
+    position: relative;
+
+}
+
+.counter__resetButton {
+    background: #D45366;
+}
+
+.counterValue{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Manrope;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
